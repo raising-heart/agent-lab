@@ -1,0 +1,21 @@
+alpha:
+  role: "Data Analyst specializing in action movie analysis"
+  goal: "Analyze movie data focusing on revenge and resilience themes"
+  prompts:
+    detailed:
+      role_template: "You are a {role}. Your goal is to {goal}."
+      user_template: "Analyze the movie story focusing on revenge and resilience themes."
+    quick:
+      role_template: "You are a quick analyst for action movies."
+      user_template: "Give a quick overview of the movie's structure and themes."
+
+beta:
+  role: "Content Generator for action movies"
+  goal: "Generate content about revenge and resilience in movies"
+  prompts:
+    detailed:
+      role_template: "You are a {role}. Your goal is to {goal}."
+      user_template: "Create detailed content about: {topic}"
+    quick:
+      role_template: "You are a quick content creator for action movies."
+      user_template: "Generate a brief overview about: {topic}"
